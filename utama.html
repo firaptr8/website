@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>JalanKuy!</title>
+        <link rel="stylesheet" type="text/css" href="utama.css">
+    </head>
+    <body>
+        <section>
+            <video class="video" src="awan.mp4" autoplay loop muted></video>
+            <nav>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#wisata">Destinasi</a></li>
+                    <li><a href="#pesan">Pesan Tiket</a></li>
+                    <li><a href="#teks">Tentang Kami</a></li>
+                    <span class="logo"><a href="#"><b>JalanKuy!</b></a></span>
+                </ul>
+            </nav> 
+            <div class="log">
+                <h2>Rencanakan Liburanmu!</h2>
+            </div>
+            <div id="wisata">
+                <h2>Destinasi Tempat Wisata</h2>
+                <hr>
+            </div>
+            <div class="destinasi">
+                <div class="letak">
+                    <div>
+                        <img src="img/02.jpeg" alt="">
+                        <h2>Puncak Rembangan</h2>
+                        <p>Puncak Rembangan--Destinasi Keluarga dengan Pemandangan Paripurna</p>
+                        <a href="#">lihat lebih banyak...</a>
+                    </div>
+                    <div>
+                        <img src="img/03.jpg" alt="">
+                        <h2>Taman Nasional Baluran</h2>
+                        <p>Nikmati Indahnya Taman Nasional Baluran--Kehidupan di Puncak Kemarau</p>
+                        <a href="#">lihat lebih banyak...</a>
+                    </div>
+                    <div>
+                        <img src="img/04.jpg" alt="">
+                        <h2>Wisata Gunung Gambir</h2>
+                        <p>Jelajah Kebun Teh Gunung Gambir--Potret Memesona Segarkan Mata</p>
+                        <a href="#">lihat lebih banyak...</a>
+                    </div>
+                </div>
+                <div class="letak">
+                    <div>
+                        <img src="img/05.jpg" alt="">
+                        <h2>Wisata Batu Jubang</h2>
+                        <p>Nikmati Kota Jember dari Ketinggian--Wisata Paralayang yang Cocok untuk Refreshing</p>
+                        <a href="#">lihat lebih banyak...</a>
+                    </div>
+                    <div>
+                        <img src="img/06.jpg" alt="">
+                        <h2>Bendungan Dam Rejo</h2>
+                        <p>Wisata Alam dengan Suasana Hutan & gemericik Air yang Menenangkan</p>
+                        <a href="#">lihat lebih banyak...</a>
+                    </div>
+                    <div>
+                        <img src="img/07.jpg" alt="">
+                        <h2>Taman Gunung Pasang</h2>
+                        <p>Sebuah Pengalaman Berkesan yang Menyimpan Memori Taman Asri nan Alami</p>
+                        <a href="#">lihat lebih banyak...</a>
+                    </div>
+                </div>
+            </div>
+            <div id="pesan">
+                <h2>Pemesanan Tiket</h2>
+                <hr>
+            </div>
+        <center>
+            <div id="backpesan">
+                <h1>Silahkan Isi Biodata Anda</h1>
+                <hr>
+                <form method="POST" action="">
+                    <input type="hidden" name="halaman" value="1">
+                    <table border="1">
+                        <tr>
+                            <td><label for="nama" class="bagian">Nama Lengkap:</label></td>
+                            <td><input type="text" name="nama" id="nama" maxlength="50" size="20" placeholder="Nama" class="ten"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="alamat" class="bagian">Alamat:</label></td>
+                            <td><textarea rows="3" cols="30" name="alamat" id="alamat" placeholder="Alamat" class="ten"></textarea></td>        
+                        </tr>
+                        <tr>
+                            <td><label for="email"class="bagian">Email:</label></td>
+                            <td><input type="email" name="email" id="email" maxlength="50" size="20" placeholder="Email" class="ten"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="wisata" class="bagian">Tempat Wisata:</label> </td>
+                            <td><select name="wisata" id="wisata" class="ten"> 
+                                <option value="">Pilih Tempat Wisata...</option>
+                                <option value="pr">Puncak Rembangan</option>
+                                <option value="gg">Wisata Gunung Gambir</option>
+                                <option value="tm">Taman Nasional Baluran</option>
+                                <option value="tm">Wisata Batu Jubang</option>
+                                <option value="tm">Bendungan Dam Rejo</option>
+                                <option value="tm">Taman Gunung Pasang</option>
+                            </select></td></tr>
+                        <tr>
+                            <td><label for="tanggal"class="bagian">Tanggal Kunjungan:</label></td>
+                            <td><input type="date" name="tanggal" id="tanggal" maxlength="50" size="20" class="ten"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="jumlah" class="bagian">Jumlah Tiket:</label></td>
+                            <td><input type="number" name="jumlah" id="jumlah" maxlength="50" size="20" placeholder="Pilih Jumlah Tiket" class="ten"></td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Pesan" class="sub"/>      
+                </form>     
+            </div>
+        </center>
+            <div id="teks">
+                <h2>Layanan Kami</h2>
+                <hr>
+                <p>Liburan adalah kebutuhan bagi setiap orang. 
+                Persiapannya membutuhkan banyak pertimbangan mulai dari harga, 
+                tingkat kenyamanan, wahana menarik yang terdapat di dalamnya.
+                Oleh karena itu, JalanKuy! hadir untuk mempermudah anda dan keluarga merencanakan 
+                liburan yang sesuai dengan selera anda.
+                </p>
+            </div>
+            <center>
+            <div id="backhub">
+                <h1>Hubungi Kami</h1>
+                <hr>
+                <form id="hub" method="POST" action="">
+                    <input type="text" name="username" placeholder="Username" class="bubu"/>
+                    <br />
+                    <input type="email" name="email" placeholder="Email" class="bubu"/>
+                    <br />
+                    <textarea name="pesan" placeholder="Pesan" placeholder="Pesan"></textarea>
+                    <input type="submit" value="Kirim" class="send"/>
+                </form>
+            </div>
+        </center>
+        </section>
+    </body>
+</html>
